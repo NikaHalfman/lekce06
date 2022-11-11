@@ -4,13 +4,19 @@ html { box-sizing: border-box; }
 
 
 .box {
-	width: 500px;
+	width: 500px; /* 1000px - rozšíří se nám boxík*/
 	height: 500px;
 	margin: 100px auto;
 	border: 1px dashed grey;
 }
 
 /* ------------------------------------ */
+.box {
+    background: url("images/siroke.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* 100px 100px když není zapnutý repeat, zobrazí se jen jednou, kdyby bylo zapnute, vyplní to celý backround několika stejnými obrázky. Cover-zůstavá ve své velikosti a vyplní jen dané pole - pokryje se celé pozadí. */
 
+}
 
 
